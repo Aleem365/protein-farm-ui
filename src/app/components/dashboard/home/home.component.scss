@@ -1,0 +1,79 @@
+
+.chart-card{
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 90%;
+}
+
+.chart-wrapper{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-wrapper{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.chart-card{
+    background-color: white;
+}
+
+.card{
+    background-color: white;
+}
+
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.card {
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blue-card {
+    background-color: #007bff;
+}
+
+.green-card {
+    background-color: #28a745;
+}
+
+.yellow-card {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.red-card {
+    background-color: #dc3545;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}

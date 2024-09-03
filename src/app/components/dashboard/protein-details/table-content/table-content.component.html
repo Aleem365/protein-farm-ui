@@ -1,0 +1,31 @@
+<div class="card">
+    <p-table [value]="products" styleClass="p-datatable-gridlines"
+        [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>بقایا رقم</th>
+                <th>جمع رقم</th>
+                <th>نام رقم</th>
+                <th>ریٹ</th>
+                <th>مرغی</th>
+                <th>فیڈ</th>
+                <th>نام بدست</th>
+                <th>تفصیل</th>
+                <th>تاریخ</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr>
+                <td>{{ product.code }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.category }}</td>
+                <td>{{ product.quantity }}</td>
+                <td>{{ product.manufacturer }}</td>
+                <td>{{ product.warranty }}</td>
+                <td>{{ product.color }}</td>
+                <td>{{ product.weight }}</td>
+                <td>{{ product.dimensions }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
